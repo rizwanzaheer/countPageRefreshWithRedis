@@ -41,5 +41,5 @@ app.get('/insert', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(' app listen on port: ', PORT);
+  console.log(`app listen on localhost:${PORT}`);
 });
